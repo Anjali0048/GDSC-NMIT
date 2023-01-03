@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GDSC NMIT</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,12 +22,17 @@
             </div>
 
             <div class="right">
-                <ul>
-                    <li><a href="/">Home</a></li>
+                <ul class="right-list">
+                    <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="Events.html">Events</a></li>
                     <li><a href="OurTeam.html">Our Team</a></li>
                     <li><a href="Contact.html">Contact Us</a></li>
+                    <a href="#" id="close"><img src="images/cross.png" alt=""></a>
                 </ul>
+            </div>
+
+            <div id="mobile">
+                <i id="bar" class="fas fa-outdent"></i>
             </div>
 
         </div>
@@ -144,6 +150,8 @@
         </div>
         
     </footer>
+
+    <script src="script.js"></script>
 
     
 </body>

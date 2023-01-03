@@ -19,6 +19,12 @@
     padding: 4px;
     width: 200px;
     height: 30px;
+    border-radius: 14px;
+}
+
+.form-content textarea{
+    border-radius: 14px;
+
 }
 
 .btn{
@@ -36,6 +42,5 @@ button{
 
 button:hover{
     background-color: rgb(78, 89, 151);
-    /* color: rgb(143, 167, 175); */
     cursor: pointer;
 }

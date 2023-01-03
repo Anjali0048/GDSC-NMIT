@@ -27,3 +27,19 @@ h2{
     width: 50%;
     padding: 30px;
 }
+
+@media screen and (max-width: 1108px){
+    
+    .about p{
+        padding: 10px;
+        font-size: 13px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .about img{
+        width: 40%;
+        padding: 10px;
+    }
+}

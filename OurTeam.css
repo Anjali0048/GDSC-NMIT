@@ -49,3 +49,24 @@
     color: black;
     font-size: 15px;
 }
+
+@media screen and (max-width: 1108px){
+
+    #team{
+        text-align: center;
+        margin: 30px 30px;
+    }
+
+    #team .pro-container{
+        justify-content: center;
+        
+    }
+
+    #team .pro{
+        width: 35%;
+        min-width: 250px;
+        padding: 10px 10px ;
+
+    }
+}
+
