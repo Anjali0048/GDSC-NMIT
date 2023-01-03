@@ -1,0 +1,41 @@
+
+.contact{
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(149, 64, 228);
+    margin: auto;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.form-content{
+    padding: 8px;
+    
+}
+
+.form-content input{
+    padding: 4px;
+    width: 200px;
+    height: 30px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(50, 72, 199);
+    padding: 4px;
+    border-radius: 8px;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(78, 89, 151);
+    /* color: rgb(143, 167, 175); */
+    cursor: pointer;
+}
